@@ -21,11 +21,15 @@ if (randomNumber1 == randomNumber2) {
   document.querySelectorAll(".dice")[1].classList.add("diceWinner");
 } else if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "🚩Player 1 Wins!";
+    document.querySelectorAll(".dice")[0].classList.remove("diceDraw");
+    document.querySelectorAll(".dice")[1].classList.remove("diceDraw");
     document.querySelectorAll(".dice")[0].classList.add("diceWinner");
     document.querySelectorAll(".dice")[1].classList.remove("diceWinner");
     document.querySelectorAll(".dice")[1].classList.add("diceLosser");
 } else if (randomNumber1 < randomNumber2) {
   document.querySelector("h1").innerHTML = "Player 2 Wins!🚩";
+  document.querySelectorAll(".dice")[0].classList.remove("diceDraw");
+  document.querySelectorAll(".dice")[1].classList.remove("diceDraw");
   document.querySelectorAll(".dice")[0].classList.remove("diceWinner");
   document.querySelectorAll(".dice")[0].classList.add("diceLosser");
   document.querySelectorAll(".dice")[1].classList.add("diceWinner");
