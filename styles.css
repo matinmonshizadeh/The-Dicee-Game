@@ -23,6 +23,12 @@
   box-shadow: 0px 0px 60px #cc634e;
 }
 
+.diceDraw{
+  border: 1px solid #666666;
+  border-radius: 20px;
+  box-shadow: 0px 0px 60px #666666;
+}
+
 body {
   background-color: #393E46;
 }
