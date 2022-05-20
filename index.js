@@ -17,8 +17,8 @@ document.querySelector(".img2").setAttribute("src", randomDiceImage2);
 
 if (randomNumber1 == randomNumber2) {
   document.querySelector("h1").innerHTML = "Draw!";
-  document.querySelectorAll(".dice")[0].classList.add("diceWinner");
-  document.querySelectorAll(".dice")[1].classList.add("diceWinner");
+  document.querySelectorAll(".dice")[0].classList.add("diceDraw");
+  document.querySelectorAll(".dice")[1].classList.add("diceDraw");
 } else if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "🚩Player 1 Wins!";
     document.querySelectorAll(".dice")[0].classList.remove("diceDraw");
