@@ -10,3 +10,9 @@
 ![d1](https://user-images.githubusercontent.com/96329489/174666617-a565b8ce-3af6-47e5-ae4b-e8302b282b06.gif)
 ![d2](https://user-images.githubusercontent.com/96329489/174666618-f84d16c2-4d6b-48fa-a3cd-29202e33a79c.gif)
 ![d3](https://user-images.githubusercontent.com/96329489/174666620-949dacbf-8af5-47f8-a03a-1d8216b297f3.gif)
+
+#
+
+- ![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white)
+- The Complete 2022 Web Development Bootcamp
+- Mini project
